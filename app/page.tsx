@@ -9,6 +9,7 @@ export default function Home() {
   useEffect(() => {
     gradient.initGradient("#gradient-canvas");
   }, []);
+  alert("me")
 
   return (
     <AnimatePresence>
